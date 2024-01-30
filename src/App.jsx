@@ -17,6 +17,7 @@ import UpdatePassword from "./pages/UpdatePassword"
 import { getUserDetails } from "./services/operations/profileAPI"
 import VerifyEmail from "./pages/VerifyEmail"
 import About from "./pages/About"
+import Contact from "./pages/Contact"
 
 function App() {
   const dispatch = useDispatch()
@@ -37,6 +38,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About/>}/>
+        <Route path="/contact" element={<Contact/>}/>
         {/* Open Route - for Only Non Logged in User */}
         <Route
           path="login"
