@@ -5,11 +5,11 @@ import BannerImage1 from "../assets/Images/aboutus1.webp"
 import BannerImage2 from "../assets/Images/aboutus2.webp"
 import BannerImage3 from "../assets/Images/aboutus3.webp"
 import Footer from "../components/Common/Footer"
-
-import ContactFormSection from "../components/core/About/ContactFormSection"
-import LearningGrid from "../components/core/About/LearningGrid"
-import Quote from "../components/core/About/Quote"
-import StatsComponenet from "../components/core/About/StatsComponent"
+import ReviewSlider from "../components/Common/ReviewSlider"
+import ContactFormSection from "../components/core/AboutPage/ContactFormSection"
+import LearningGrid from "../components/core/AboutPage/LearningGrid"
+import Quote from "../components/core/AboutPage/Quote"
+import StatsComponenet from "../components/core/AboutPage/Stats"
 import HighlightText from "../components/core/HomePage/HighlightText"
 
 const About = () => {
@@ -113,7 +113,7 @@ const About = () => {
         <h1 className="text-center text-4xl font-semibold mt-8">
           Reviews from other learners
         </h1>
-        {/* <ReviewSlider /> */}
+        <ReviewSlider />
       </div>
       <Footer />
     </div>
